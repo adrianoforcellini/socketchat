@@ -1,13 +1,17 @@
 const express = require('express');
 const app = express();
+const path = require("path")
+
 const http = require('http').createServer(app);
 
-// const io = require('socket.io')(http, {
+const io = require('socket.io')(http,
+//    {
 //   cors: {
 //     origin: 'https://main.d1pdv4im8oqf39.amplifyapp.com/', 
 //     methods: ['GET', 'POST'], 
 //   },
-// });
+// }
+);
 
 
 require('./sockets/chat')(io);
