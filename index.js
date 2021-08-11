@@ -5,7 +5,7 @@ const http = require('http').createServer(app);
 const io = require('socket.io')(http, {
   cors: {
     origin: 'https://main.d1pdv4im8oqf39.amplifyapp.com/', 
-    methods: ['GET', 'POST'],
+    methods: ['GET', 'POST'], 
   },
 });
 
@@ -22,6 +22,10 @@ app.get('/', (req, res) => {
   res.redirect('/entrar.html')
 });
 
-http.listen(3000, () => {
+const PORT = process.env.PORT
+
+http.listen(PORT, () => {
   console.log('The Peoople Is On the Table!!!');
 });
+
+// test deploy
