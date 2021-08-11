@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const http = require('http').createServer(app);
+// const http = require('http').createServer(app);
 
 // const io = require('socket.io')(http, {
 //   cors: {
@@ -26,8 +26,11 @@ res.send('tacalhepau')
 
 const PORT = process.env.PORT || 3000
 
-http.listen(PORT, () => {
+// http.listen(PORT, () => {
+//   console.log('The Peoople Is On the Table!!!');
+// });
+
+app.listen(PORT, () => {
   console.log('The Peoople Is On the Table!!!');
 });
-
 // test deploy
