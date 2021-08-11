@@ -15,9 +15,9 @@ require('./sockets/rooms')(io);
 
 
 app.use(express.static(__dirname + '/public'));
-app.get('/', (_req, res) => {
-res.send('tacalhepau')
-})
+// app.get('/', (_req, res) => {
+// res.send('tacalhepau')
+// })
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname + '/index.html');
