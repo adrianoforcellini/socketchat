@@ -18,7 +18,7 @@ require('./sockets/chat')(io);
 require('./sockets/rooms')(io);
 
 
-app.use(express.static(__dirname + '/public'));
+// app.use(express.static(__dirname + '/public'));
 // app.get('/', (_req, res) => {
 // res.send('tacalhepau')
 // })
