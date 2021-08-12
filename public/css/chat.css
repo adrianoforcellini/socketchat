@@ -6,6 +6,7 @@
 }
 
 body {
+  background-color: rgba(55, 52, 52, 0.255);
   font: 13px Helvetica, Arial;
 }
 
@@ -26,7 +27,7 @@ form input {
 
 form button {
   width: 9%;
-  background: rgb(130, 224, 255);
+  background: rgb(108, 109, 109);
   border: none;
   padding: 10px;
   cursor: pointer;
@@ -34,8 +35,10 @@ form button {
 
 #messages {
   list-style-type: none;
-  margin: 0;
+  margin: 1%;
+  margin-bottom: 4%;
   padding: 0;
+  
 }
 
 #messages li {
@@ -43,5 +46,6 @@ form button {
 }
 
 #messages li:nth-child(odd) {
-  background: #eee;
+  background: rgb(75, 74, 74);
+  color: white
 }
