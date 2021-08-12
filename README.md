@@ -2,7 +2,7 @@
 ### Bate papo 100% funcional, com salas privadas.
 ![](/sk.gif)
 ## ***A opinião dos participantes não representa 
-## de forma alguma a de nossos colabores. **
+## de forma alguma a de nossos colabores. ***
 ### Realizei o deploy da aplicação com o Elastic Beanstalk da AWS,
 ### Assim qualquer pessoa no mundo pode se conectar para conversar sobre os temas.
 ### #UOLqueSePrepare =P
