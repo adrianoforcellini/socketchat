@@ -1,5 +1,6 @@
 ## NodeJS + Express + Socket.io + AWS
 ### Bate papo 100% funcional, com salas privadas.
+
 ![](/sk.gif)
 ## ***A opinião dos participantes não representa 
 ## de forma alguma a de nossos colabores. ***
@@ -7,3 +8,7 @@
 ### Assim qualquer pessoa pode se conectar para conversar sobre os temas.
 ### #UOLqueSePrepare 
 ### http://socketchat-env.eba-pivzx8nq.us-east-1.elasticbeanstalk.com/
+
+##### Material trybe, pequenas modificações no css.
+##### Deploy relaizado a partir de meus conhecimentos.
+
